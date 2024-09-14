@@ -1,3 +1,10 @@
+/*
+font-family: "Lexend Deca", sans-serif;
+font-weight: 400;
+
+font-family: "Inter", sans-serif;
+font-weight: 400 700;
+*/
 body {
     margin: 0;
     padding: 0;
@@ -10,24 +17,49 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+
+    font-family: "Lexend Deca", sans-serif;
+font-weight: 400;
 }
 #card {
     background-color: hsl(244, 38%, 16%);
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 60%;
     height: 446px;
     justify-content: space-between;
     align-items: center;
+}
+#heading-txt {
+    font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 38px;
+}
+#p-txt-col {
+    color: hsl(277, 64%, 61%);
 }
 #main-p {
     color: hsla(0, 0%, 100%, 0.75);
 }
 #txt-cont {
-
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding-left: 75px;
+ padding-right: 100px;
 }
 #img-div {
-
+background-image: url(../images/image-header-desktop.jpg);
+min-width: 540px;
+height: 446px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#img-col {
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 76%, 29%, 0.539);
 }
 .txt-col-stats {
     color: hsla(0, 0%, 100%, 0.6);
